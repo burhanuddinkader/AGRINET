@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../static/css/contact.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success py-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../static/img/logo.png" width="30" height="30" class="d-inline-block align-top mr-1" alt="">
+                    AGRITECH
+                </a>
+                <a class="navbar-brand text-uppercase ms-5" href="/templates/homepage.html">Home</a>
+                <a class="navbar-brand text-uppercase ms-5" href="/templates/about.html">About</a>
+                <a class="navbar-brand text-uppercase ms-5" href="/templates/pd.html">Admin</a>
+                <a class="navbar-brand text-uppercase ms-5" href="/templates/contact.html">Contact Us</a>
+                <a class="navbar-brand text-uppercase ms-5" href="/templates/registration.html">Register here</a>
+
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/templates/registration.html">Register</a></li>
+                            <li><a class="dropdown-item" href="/templates/login.html">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul> -->
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Content -->
+
+    <div class="container-fluid mt-5 px-5">
+        <div class="row d-flex">
+            <div class="col-sm-8 me-2">
+                <h3>Contact Information</h3>
+                <p class="mt-3">This is a good place to put some contact information, so people can get in touch with
+                    you.</p>
+                <p class="mt-3">Common components on a contact page are such things as Name, Address, Phone, an email
+                    Contact Form, and even a Map. Remember you can change this Page Layout in the toolbar above if you
+                    want a different look to this page.</p>
+
+                <h3>Contact Form</h3>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="contact_name" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="contact_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name">Message</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary px-2">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-3 ms-7 mt-6">
+                <h3>Address</h3>
+                <p>Agrinet Foods and Beverages Pvt Ltd,
+                    <br><br><br>
+                    1/5 Banaswadi Main Road,
+                    <br><br>
+                    Opp. Oled ITC Factory, Cooke Town,
+                    <br><br>
+                    Bangalore, Karnataka 560005
+                    <br><br>
+                    Phone: +91 96325 92686,
+                    <br><br>
+                    Email: info@agrinetgroup.com
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
